@@ -1,0 +1,8 @@
+# Exclude compiler binary files
+*.out
+main
+basic
+tanmay
+
+# Exclude any build or object files
+*.o
