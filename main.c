@@ -19,21 +19,7 @@ int main(){
 
 
 
-    float num3;
-    float num4;
-    printf("enter third number ");
-    scanf("%f",&num3);
-
-    printf("enter fourth number ");
-    scanf("%f",&num4);
-
-    printf("\n");
-
-    printf("addition: %f \n" , num3+num4);
-    printf("subtraction: %f \n" , num3-num4);
-    printf("multiplication: %f \n" , num3*num4);
-    printf("division: %f \n" , num3/num4);
-    
+  
 
     return 0 ;
 
