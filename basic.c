@@ -11,7 +11,7 @@ int main()
     printf("Your age: ");
     scanf("%d", &age);
 
-    if(age >= 18 && name_initial == 't')
+    if(age >= 18 && name_initial == 't'|| name_initial == 'T')
     {
         printf("Welcome to admin centre\n");
         printf("Wait... data arriving from Mars...\n");
