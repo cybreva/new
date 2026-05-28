@@ -1,26 +1,42 @@
 #include <stdio.h>
 
-int main()
-{
-    int a = 7;
-    float b = 8.0;
-    char c = 't';
-    long integer = 123123;
-    short integer2 = 1;
-    double myfloat = 2.02;
-    long double myfloat3 = 2.4837589023;
-    unsigned int integer3 = 2352;
-    unsigned long integer4 = 2345542;
+int main(){
 
-    printf("the size of integer is %lu\n", sizeof(a));
-    printf("the size of float is %lu\n", sizeof(b));
-    printf("the size of char is %lu\n", sizeof(c));
-    printf("the size of unsigned integer is %lu\n", sizeof(integer3));
-    printf("the size of unsigned long integer is %lu\n", sizeof(integer4));
-    printf("the size of long integer is %lu\n", sizeof(integer));
-    printf("the size of short integer is %lu\n", sizeof(integer2));
-    printf("the size of double float is %lu\n", sizeof(myfloat));
-    printf("the size of long double integer is %lu\n", sizeof(myfloat3));
+    int num1;
+    int num2;
+    printf("enter first number ");
+    scanf("%d",&num1);
 
-    return 0;
+    printf("enter second number ");
+    scanf("%d",&num2);
+
+    printf("\n");
+
+    printf("addition: %d \n" , num1+num2);
+    printf("subtraction: %d \n" , num1-num2);
+    printf("multiplication: %d \n" , num1*num2);
+    printf("division: %d \n" , num1/num2);
+
+
+
+    float num3;
+    float num4;
+    printf("enter third number ");
+    scanf("%f",&num3);
+
+    printf("enter fourth number ");
+    scanf("%f",&num4);
+
+    printf("\n");
+
+    printf("addition: %f \n" , num3+num4);
+    printf("subtraction: %f \n" , num3-num4);
+    printf("multiplication: %f \n" , num3*num4);
+    printf("division: %f \n" , num3/num4);
+    
+
+    return 0 ;
+
+    
+
 }
