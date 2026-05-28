@@ -2,6 +2,8 @@
 
 int main()
 {
+
+    //simple calculator logic
     int num1;
     int num2;
 
@@ -49,5 +51,5 @@ int main()
     }
 
     return 0;
-    //idk
+    
 }
