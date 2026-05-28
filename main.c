@@ -20,7 +20,6 @@ int main()
     short integer2 = 1 ;
     double myfloat = 2.02;
     long double myfloat3 = 2.4837589023;
-    short double myfloat2 = 2.2;
     unsigned integer3 = 2352;
     unsigned long integer4 = 2345542 ;
     printf("the size of integer is %ld \n " , sizeof(integer));
