@@ -25,6 +25,7 @@ I started this repo while learning:
 * `if`, `else if`, `else`
 * Logical operators (`&&`, `||`)
 * `while` loops
+* `for` loops
 * User input handling
 * Sum accumulator logic
 * Basic debugging
