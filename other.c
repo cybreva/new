@@ -10,7 +10,7 @@ int main (){
 
 
         int n ;
-        printf("how many numbers you want to add ?\n");
+        printf("how many numbers you want to add \n?");
         scanf("%d", &n);
 
         int i = 1 ;
@@ -32,7 +32,7 @@ int main (){
     }
     
     else{
-        printf("sorry you are not allowed");
+        printf("sorry you are not allowed\n");
     }
     
     return 0;

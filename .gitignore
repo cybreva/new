@@ -3,6 +3,9 @@
 main
 basic
 tanmay
+other
 
 # Exclude any build or object files
 *.o
+# vscode
+.vscode/
