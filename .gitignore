@@ -4,8 +4,8 @@ main
 basic
 tanmay
 other
-
+for_loop
 # Exclude any build or object files
-*.o
+
 # vscode
 .vscode/
