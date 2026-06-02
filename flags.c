@@ -17,7 +17,7 @@ int main(){
     scanf("%d",&i);
       if(i==1){
         printf("to enable/disable \n press y/n\n");
-        scanf("%c", &a);
+        scanf(" %c", &a);
         if(a == 'y')
         {addition_enabled = enabled ;
         printf("addition is enabled");}
@@ -28,7 +28,7 @@ int main(){
       }
       else if (i==2){
         printf("to enable/disable \n press y/n\n");
-        scanf("%c", &a);
+        scanf(" %c", &a);
             if(a == 'y'){
             multiplication_enabled = enabled ;
             printf("multiplication is enabled\n");
@@ -38,9 +38,9 @@ int main(){
             printf("multiplication is dissabled\n");
          }}
 
-      else if (i==2){
+      else if (i==3){
             printf("to enable/disable \n press y/n\n");
-            scanf("%c", &a);
+            scanf(" %c", &a);
             if(a == 'y'){
             subtraction_enabled = enabled ;
             printf("subtraction is enabled\n");}
@@ -51,9 +51,9 @@ int main(){
             }
         }
 
-        else if (i==2){
+        else if (i==4){
             printf("to enable/disable \n press y/n\n");
-            scanf("%c", &a);
+            scanf(" %c", &a);
             if(a == 'y'){
             division_enabled = enabled ;
             printf("division is enabled\n");}
