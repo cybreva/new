@@ -1,16 +1,22 @@
-  float num3;
-    float num4;
-    printf("enter third number ");
-    scanf("%f",&num3);
+  int a;
+    printf("addition currently disabled\ntype 0/1 to disable/enable it \n");
+    scanf("%d",&a);
+    if(a==1){
+        addition_enabled = a ;
+        printf("addition successfully enabled\n");
+    }
+    else if(a==0){
+        addition_enabled = a ;
+        printf("addition is dissabled\n");
 
-    printf("enter fourth number ");
-    scanf("%f",&num4);
+    }
+    else{
 
-    printf("\n");
-    
-    
-    printf("addition: %f \n" , num3+num4);
-    printf("subtraction: %f \n" , num3-num4);
-    printf("multiplication: %f \n" , num3*num4);
-    printf("division: %f \n" , num3/num4);
-    
+        printf("wrong specifier\n");
+    }
+
+
+    printf("flag value = %d\n", addition_enabled);
+
+
+

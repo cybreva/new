@@ -3,29 +3,76 @@
 int main(){
 
     int addition_enabled = 0;
-    int a;
-    printf("addition currently disabled\ntype 0/1 to disable/enable it \n");
-    scanf("%d",&a);
-    if(a==1){
-        addition_enabled = a ;
-        printf("addition successfully enabled\n");
-    }
-    else if(a==0){
-        addition_enabled = a ;
-        printf("addition is dissabled\n");
+    int multiplication_enabled = 0;
+    int subtraction_enabled = 0;
+    int division_enabled=0;
+    int i ;
+    int enabled = 1;
+    int disabled = 0 ;
+    char a ;
 
-    }
-    else{
+   
 
-        printf("wrong specifier\n");
-    }
+    printf("welcome admin\nplease choose a operation\n1.addition\n2.multiplication\n3.subtraction\n4.division\n");
+    scanf("%d",&i);
+      if(i==1){
+        printf("to enable/disable \n press y/n\n");
+        scanf("%c", &a);
+        if(a == 'y')
+        {addition_enabled = enabled ;
+        printf("addition is enabled");}
+        else{
+            addition_enabled=disabled;
+            printf("addition is dissabled\n");
+        }
+      }
+      else if (i==2){
+        printf("to enable/disable \n press y/n\n");
+        scanf("%c", &a);
+            if(a == 'y'){
+            multiplication_enabled = enabled ;
+            printf("multiplication is enabled\n");
+            }
+            else{
+                multiplication_enabled=disabled;
+            printf("multiplication is dissabled\n");
+         }}
+
+      else if (i==2){
+            printf("to enable/disable \n press y/n\n");
+            scanf("%c", &a);
+            if(a == 'y'){
+            subtraction_enabled = enabled ;
+            printf("subtraction is enabled\n");}
+
+            else{
+                subtraction_enabled=disabled;
+            printf("subtraction is dissabled\n");
+            }
+        }
+
+        else if (i==2){
+            printf("to enable/disable \n press y/n\n");
+            scanf("%c", &a);
+            if(a == 'y'){
+            division_enabled = enabled ;
+            printf("division is enabled\n");}
+
+            else{
+                division_enabled=disabled;
+            printf("division is dissabled\n");
+            }
+        }
+        
+        else{
+            printf("wrong specifier\n");
+
+        }
+
+        printf("byy admin\n");
 
 
-    printf("flag value = %d\n", addition_enabled);
-    
-
-
-
+  
 
 
 
