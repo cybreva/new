@@ -3,7 +3,7 @@
 
 void greet (int num)
 {
-    printf("fuckoff %d\n",num);
+    printf("welcome %d\n",num);
 }
 
 int main(){
