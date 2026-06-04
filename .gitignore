@@ -10,6 +10,7 @@ calculator_menu
 functions
 experiments
 # Exclude any build or object files
+*.png
 
 # vscode
 .vscode/
