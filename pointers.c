@@ -9,7 +9,7 @@ int main()
     printf("\nx = %d\n", x);
     printf("\nptr = %p\n", ptr);
     printf("\n*ptr = %d\n", *ptr);
-    printf("by by ")
+    printf("by by ");
 
 
     return 0;
