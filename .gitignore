@@ -9,6 +9,7 @@ flags
 calculator_menu
 functions
 experiments
+pointers
 # Exclude any build or object files
 *.png
 
