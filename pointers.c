@@ -9,7 +9,8 @@ int main()
     printf("\nx = %d\n", x);
     printf("\nptr = %p\n", ptr);
     printf("\n*ptr = %d\n", *ptr);
-    printf("by by ");
+    
+    printf("\nmy email on git was incorrect so all my commits are from a name example🥀sybau🥀\n");
 
 
     return 0;
