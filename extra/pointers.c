@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-int main(){
-
+int main()
+{
     int x = 10;
 
-    printf("%d\n", x);
-    printf("%p\n", &x);
+    int *ptr = &x;
+
+    printf("\nx = %d\n", x);
+    printf("\nptr = %p\n", ptr);
+    printf("\n*ptr = %d\n", *ptr);
 
     return 0;
-
-    
-
-
 }
