@@ -20,3 +20,9 @@ PASS BY VALUE
 copy of variable goes to function
 
 POINTERS CAN MODIFY ORIGINAL VARIABLE
+
+
+x      -> value
+&x     -> address
+ptr    -> address
+*ptr   -> value at that address
