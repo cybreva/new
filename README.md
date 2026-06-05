@@ -1,64 +1,42 @@
-# C Language Tutorial
+# C Programming Journey
 
-This repository contains my C programming learning journey and practice programs.
+This repository contains my C programming practice, experiments, and learning projects.
 
-I started this repo while learning:
+## Topics Covered
 
-* Variables and data types
-* Input and output
-* Conditional statements
+* Variables and Data Types
+* Input and Output
+* Conditional Statements
 * Loops
-* Basic logic building
-* Git and GitHub workflow
+* Functions
+* Arrays
+* Strings
+* Pointers (Basics)
+* Memory Experiments
+* File Handling
+* Miscellaneous Practice Programs
 
-## Files
+## Environment
 
-* `main.c` → basic C programs and experiments
-* `basic.c` → condition-based programs
-* `other.c` → loops and addition logic programs
-* `extra/` → extra practice files
+* OS: Ubuntu Linux
+* Compiler: GCC
+* Editor: VS Codium
 
-## Concepts Practiced
+## Purpose
 
-* `printf()` and `scanf()`
-* Integer and float operations
-* `if`, `else if`, `else`
-* Logical operators (`&&`, `||`)
-* `while` loops
-* `for` loops
-* User input handling
-* Sum accumulator logic
-* Basic debugging
+This repository was created to learn C programming from the fundamentals through hands-on coding and experimentation.
 
-## Compile and Run
+Many files in this repository are practice programs, debugging exercises, memory experiments, and concept demonstrations created while learning the language.
 
-Compile:
+## What I Learned
 
-```bash
-gcc filename.c -o output
-```
+* Writing modular programs using functions
+* Understanding memory and addresses
+* Working with arrays and strings
+* Basic pointer concepts
+* Using GCC and Git in a Linux environment
+* Debugging compilation and runtime errors
 
-Run:
+## Next Step
 
-```bash
-./output
-```
-
-Example:
-
-```bash
-gcc main.c -o main
-./main
-```
-
-## Git Practice
-
-This repository is also used to practice:
-
-* Git commits
-* Branching
-* GitHub push workflow
-* `.gitignore`
-* Repository cleanup
-
-Learning in progress 🚀
+Moving forward to C++ and Data Structures & Algorithms.
