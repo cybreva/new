@@ -6,6 +6,12 @@ int main()
 
     int *ptr = &x;
 
+//x      -> value
+//&x     -> address
+//ptr    -> address
+//*ptr   -> value at that address 
+    
+
     printf("\nx = %d\n", x);
     printf("\nptr = %p\n", ptr);
     printf("\n*ptr = %d\n", *ptr);
