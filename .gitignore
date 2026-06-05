@@ -12,7 +12,7 @@ experiments
 pointers
 # Exclude any build or object files
 *.png
-*.txt
+
 
 # vscode
 .vscode/

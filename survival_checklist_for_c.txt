@@ -1,0 +1,22 @@
+VARIABLE
+int x = 10;
+
+ADDRESS OF VARIABLE
+&x
+
+POINTER
+int *ptr = &x;
+
+VALUE AT ADDRESS
+*ptr
+
+ARRAY
+int arr[5];
+
+FUNCTION
+return_type function_name(parameters)
+
+PASS BY VALUE
+copy of variable goes to function
+
+POINTERS CAN MODIFY ORIGINAL VARIABLE
