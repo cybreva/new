@@ -1,74 +1,102 @@
 #include <stdio.h>
 
-int main (){
+int main(){
 
-    char pass ;
 
-    printf("welcome \n enter your one char password");
-    scanf("%c",&pass);
+ char name_initial;
+    int age;
 
-    int option;
+    printf("Your name initial: ");
+    scanf("%c", &name_initial);
+    int addition_enabled = 0;
+    int multiplication_enabled = 0;
+    int subtraction_enabled = 0;
+    int division_enabled=0;
+    int i ;
+    int enabled = 1;
+    int disabled = 0 ;
+    char a ;
 
-    if(pass=='T'||pass=='t'){
-    
-    
-
-        printf("welcome admin\n please specify what programme you want to add\n1. addition\n2. subtraction\n3. multiplication\n4. division\n");
-        scanf("%d",&option);
-    
-    
-    }
-    else{
-        if(option==1||option==3){
-
-            int n;
-
-        printf("welcome user\nHow many numbers do you want to add? ");
-        scanf("%d", &n);
-
-        int num;
-        int sum = 0;
-
-        for(int i = 1; i <= n; i++)
-        {
-            printf("Enter number %d: ", i);
-
-            if(scanf("%d", &num) != 1)
-            {
-                printf("Invalid input detected\n");
-                break;
+    if( name_initial == 't'|| name_initial == 'T')
+    {
+    printf("welcome admin\nplease choose a operation\n1.addition\n2.multiplication\n3.subtraction\n4.division\n");
+    scanf("%d",&i);
+      if(i==1){
+        printf("to enable/disable \n press y/n\n");
+        scanf(" %c", &a);
+        if(a == 'y')
+        {addition_enabled = enabled ;
+        printf("addition is enabled");}
+        else{
+            addition_enabled=disabled;
+            printf("addition is dissabled\n");
+        }
+      }
+      else if (i==2){
+        printf("to enable/disable \n press y/n\n");
+        scanf(" %c", &a);
+            if(a == 'y'){
+            multiplication_enabled = enabled ;
+            printf("multiplication is enabled\n");
             }
+            else{
+                multiplication_enabled=disabled;
+            printf("multiplication is dissabled\n");
+         }}
 
-            sum = sum + num;
+      else if (i==3){
+            printf("to enable/disable \n press y/n\n");
+            scanf(" %c", &a);
+            if(a == 'y'){
+            subtraction_enabled = enabled ;
+            printf("subtraction is enabled\n");}
+
+            else{
+                subtraction_enabled=disabled;
+            printf("subtraction is dissabled\n");
+            }
         }
 
-        printf("Total sum = %d\n", sum);
-        
+        else if (i==4){
+            printf("to enable/disable \n press y/n\n");
+            scanf(" %c", &a);
+            if(a == 'y'){
+            division_enabled = enabled ;
+            printf("division is enabled\n");}
+
+            else{
+                division_enabled=disabled;
+            printf("division is dissabled\n");
+            }
         }
         
+        else{
+            printf("wrong specifier\n");
 
+        }
 
+        printf("byy admin\n");
     }
 
 
+    else
+    {
+       
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return 0;
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
